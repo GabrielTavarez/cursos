@@ -1,0 +1,19 @@
+
+struct Bolas
+    esquerda::Circle
+    direita::Circle
+end
+
+function Bolas(x,y,r)
+    xe = x-r
+    xd = x+r
+    Bolas(Circle(xe,y,r), Circle(xd,y,r))
+end
+
+function draw(bolas::Bolas)
+    draw(bolas.esquerda, colorant"black")
+    draw(bolas.direita, colorant"black")
+end
+
+
+

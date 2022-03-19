@@ -1,0 +1,4 @@
+Olá, meu nome é Gabriel
+Outra linha
+Aqui o texto tem os ENTERs automaticamente
+Sem a necessidade de \n

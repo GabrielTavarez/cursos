@@ -1,0 +1,4 @@
+name = "HelloApp"
+uuid = "071e52b4-5f96-4d1d-83e8-ad67230a074e"
+
+[deps]
